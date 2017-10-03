@@ -4,13 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <!-- Custom CSS style sheet-->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome CSS style sheet(dont forget to copy the fonts folder in the base directory)-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
   <title>Basic Template - Change title to custom title</title>
 </head>
 <body>
 
+  <!--Start Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+      <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i>History</a></li>
+      <li><a href="#"><i class="fa fa-database" aria-hidden="true"></i>Products</a>
+        <ul>
+          <li><a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Add</a></li>
+          <li><a href="#"><i class="fa fa-edit" aria-hidden="true"></i>Edit</a></li>
+          <li><a href="#"><i class="fa fa-remove" aria-hidden="true"></i>Delete</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Contact Us</a></li>
+    </ul>
+  </div>
+
+    <!--End Navbar -->
   <script src="js/script.js"></script>
 </body>
 </html>
